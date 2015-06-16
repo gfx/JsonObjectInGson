@@ -17,7 +17,7 @@
             />
 
     <TextView
-            android:id="@+id/json"
+            android:id="@+id/parse_json"
             tools:text="JSONObject"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -25,7 +25,23 @@
             />
 
     <TextView
-            android:id="@+id/gson"
+            android:id="@+id/parse_gson"
+            tools:text="Gson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"
+            />
+
+    <TextView
+            android:id="@+id/serialize_json"
+            tools:text="JSONObject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"
+            />
+
+    <TextView
+            android:id="@+id/serialize_gson"
             tools:text="Gson"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
